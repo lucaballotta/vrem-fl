@@ -20,6 +20,8 @@ ApolloScape gathers frames from video streams acquired by moving cameras and is 
 To change dataset, it is sufficient to adjust lines 233-240 in the file _run_experiment.py_. 
 To change the learned model, local training algorithm, or global aggregation algorithm, it is sufficient to change the relevant methods and parameters in ``get_learner()`` and ``get_client()`` in ``init_clients()`` (for local training and models) and ``get_learner()``, ``get_local_steps_optimizer()``, ``get_local_steps_manager()``, and ``get_aggregator()`` in ``build_experiment()`` (for global training), all in _run_experiment.py_.
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vrem-fl-mobility-aware-computation-scheduling/semantic-segmentation-on-apolloscape)](https://paperswithcode.com/sota/semantic-segmentation-on-apolloscape?p=vrem-fl-mobility-aware-computation-scheduling)
+
 ## Client mobility and bitrate
 In all experiments clients are mobile, which affects the channel quality and upload bitrate. 
 The bitrate values for each client and time slot represented in the simulations are uploaded as dictionaries from data files through the method ``import_vehicles_data()`` at lines 8 and 201 of the files _Least_Squares_FL_code/main_FL_LS.py_ and _fl_simulator_nn/run_experiment.py_, respectively. 
