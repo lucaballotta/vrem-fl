@@ -61,7 +61,7 @@ For this experiment, it is also necessary to download the dataset [ApolloScape].
 
 ```
 @ARTICLE{10715716,
-  author={Ballotta, Luca and Fabbro, Nicolò Dal and Perin, Giovanni and Schenato, Luca and Rossi, Michele and Piro, Giuseppe},
+  author={Ballotta, Luca and Fabbro, Nicol\`o Dal and Perin, Giovanni and Schenato, Luca and Rossi, Michele and Piro, Giuseppe},
   journal={IEEE Transactions on Vehicular Technology}, 
   title={{VREM-FL}: mobility-aware computation-scheduling co-design for vehicular federated learning}, 
   year={2024},
