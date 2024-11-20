@@ -57,26 +57,41 @@ The latter requires to supply mandatory command line arguments ``experiment`` wi
 All command line arguments are visible in the example bash script _fl_simulator_nn/experiment/run_fedavg.sh_.
 For this experiment, it is also necessary to download the dataset [ApolloScape].
 
+Vehicular mobility datasets with bitrate values used in the experiments are openly available at https://researchdata.cab.unipd.it/1430/.
+
 ## Citation
 
-```
-@ARTICLE{10715716,
-  author={Ballotta, Luca and Fabbro, Nicol\`o Dal and Perin, Giovanni and Schenato, Luca and Rossi, Michele and Piro, Giuseppe},
-  journal={IEEE Transactions on Vehicular Technology}, 
-  title={{VREM-FL}: mobility-aware computation-scheduling co-design for vehicular federated learning}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-16},
-  doi={10.1109/TVT.2024.3479780}
-}
-```
+1. Journal paper:
+  ```
+  @ARTICLE{10715716,
+    author={Ballotta, Luca and Fabbro, Nicol{\`o} Dal and Perin, Giovanni and Schenato, Luca and Rossi, Michele and Piro, Giuseppe},
+    journal={IEEE Transactions on Vehicular Technology}, 
+    title={{VREM-FL}: mobility-aware computation-scheduling co-design for vehicular federated learning}, 
+    year={2024},
+    volume={},
+    number={},
+    pages={1-16},
+    doi={10.1109/TVT.2024.3479780}
+  }
+  ```
+  The paper is freely available (open access).
+  
+  Supplementary material is available in the technical report on ArXiv at https://arxiv.org/abs/2311.18741.
 
-The paper is freely available (open access).
-
-Supplementary material is available in the technical report on ArXiv at https://arxiv.org/abs/2311.18741.
-
-Vehicular mobility datasets with bitrate values used in the experiments are openly available at https://researchdata.cab.unipd.it/1430/.
+2. Vehicular mobility datasets:
+  ```
+  @dataset{researchdata1430,
+    author = {Giovanni Perin and Luca Ballotta and Nicol{\`o} Dal Fabbro},
+    year = {2024},
+    month = {November},
+    title = {{VREM-FL} datasets: a collection of datasets for vehicular federated learning},
+    publisher = {Research Data Unipd},
+    doi = {10.25430/researchdata.cab.unipd.it.00001430},
+    url = {https://researchdata.cab.unipd.it/1430/}
+  }
+  ```
+  
+  If you use the dataset(s) for your research, please cite both the datasets and the paper.
 
 ## References
 [5GToolbox] Mathworks. (2023) 5G Toolbox. Accessed on: Nov. 15, 2023.
